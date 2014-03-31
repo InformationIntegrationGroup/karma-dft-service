@@ -16,7 +16,7 @@ app = web.application(urls, globals())
 
 class merge:
     def GET(self):
-        return "merge by nearest"
+        return "merge by nearest "
 
     def POST(self):
 
